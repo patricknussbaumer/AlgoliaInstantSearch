@@ -1,9 +1,12 @@
 const { algoliasearch, instantsearch } = window;
 
-const searchClient = algoliasearch('latency', '6be0576ff61c053d5f9a3225e2a90f76');
+const searchClient = algoliasearch(
+  'FNSGMRR5FU',
+  'ba5314fb4d8213183d5a71f1246b1749'
+);
 
 const search = instantsearch({
-  indexName: 'instant_search',
+  indexName: 'Spencer and Williams - TAM Assignment',
   searchClient,
 });
 
